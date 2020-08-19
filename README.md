@@ -1,4 +1,4 @@
-# testproject
+# vuextodocrud
 
 ## Project setup
 ```
