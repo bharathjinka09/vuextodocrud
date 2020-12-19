@@ -6,12 +6,14 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "start": "node server.js"
+    "start": "node server.js",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "express": "^4.17.1",
+    "gh-pages": "^3.1.0",
     "serve-static": "^1.14.1",
     "vue": "^2.6.11",
     "vuex": "^3.5.1"
